@@ -16,15 +16,16 @@ h1, h2, h3 {
 }
 
 aside {
-	
+	width: 15%;
+	font-size: large;
 }
 
 footer {
-
+	font-size: medium;
 }
 
 header {
-
+ margin-left: 20px;
 }
 
 img {
@@ -32,17 +33,26 @@ img {
 }
 
 main {
-
+	width: 28%;
+	font-size: large;
 }
 
 nav {
-
+	font-size: large;
 }
 
 #copyright {
-	font-size: 80%;
+	font-size: 100%;
 }
 
 #main-container {
-
+	overflow: hidden;
+	padding: 20px;
 }
+
+nav, main, aside {
+	float: left;
+	padding: 25px;
+	margin-bottom: 10px;
+  }
+  
